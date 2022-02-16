@@ -190,9 +190,73 @@
         font-size: 21px;
       }
       #section2 .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
-        vertical-align: 125em;
+        vertical-align: 0.125em;
       }
       /* /section2 css */
+
+      /* section3 css */
+      #section3{
+        height: 372px;
+      }
+      #section3 .container{
+        margin-top: 32px;
+      }
+      #section3 h1{
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+      }
+      #section3 p{
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+      }
+      #section3 .itemContainer{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #section3 .item{
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        position: static;
+        width: 268px;
+        height: 196px;
+        border: 1px solid #D0D0D0;
+        box-sizing: border-box;
+        border-radius: 8px;
+      }
+      #section3 .icon{
+        width: 32px;
+        height: 32px;
+      }
+      #section3 h2{
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin: 16px 0px;
+      }
+      #section3 .pItem{
+        width: 220px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+      }
+
+      /* /section3 css */
 
     </style>
   </head>
@@ -297,8 +361,46 @@
       </div>
       </div>
     </section>
-    
     <!-- /section2 -->
+
+    <!-- section3 -->
+    <section id="section3" class="section3">
+      <div class="container">
+        <h1>Why Us?</h1>
+        <p>Mengapa harus pilih Binar Car Rental?</p>
+        <div class="itemContainer">
+          <div class="item">
+            <img src="assets/img/icon1.png" alt="icon" class="icon"/>
+            <h2>Mobil Lengkap</h2>
+            <p class="pItem">
+              Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat
+            </p>
+          </div>
+          <div class="item">
+            <img src="assets/img/icon2.png" alt="icon" class="icon"/>
+            <h2>Harga Murah</h2>
+            <p class="pItem">
+              Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain
+            </p>
+          </div>
+          <div class="item">
+            <img src="assets/img/icon3.png" alt="icon" class="icon"/>
+            <h2>Layanan 24 Jam</h2>
+            <p class="pItem">
+              Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu
+            </p>
+          </div>
+          <div class="item">
+            <img src="assets/img/icon4.png" alt="icon" class="icon"/>
+            <h2>Sopir Profesional</h2>
+            <p class="pItem">
+              Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /section3 -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
