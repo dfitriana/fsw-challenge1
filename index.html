@@ -59,8 +59,70 @@
 
       /* Hero css */
       #hero{
-        width: 1440px;
         height: 500px;
+        background-color: #f1f3ff;
+      }
+      #hero .container{
+        display: flex;
+      }
+      #hero .box1{
+        margin-top: 177px;
+        margin-right: 32px;
+      }
+      #hero h1{
+        width: 568px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 150%;
+        color: #000000;
+      }
+      #hero p{
+        width: 468px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+      }
+      #hero .btn{
+        background: #5CB85F;
+        border-color: #5CB85F;
+        width: 145px;
+        height: 36px;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      #hero .box2{
+        position: relative;
+      }
+      #hero .bg-hero{
+        position: absolute;
+        width: 704px;
+        height: 243px;
+        background: #0D28A6;
+        border-radius: 60px 0px 0px 0px;
+        bottom: 0;
+        z-index: 1;
+        left: 80px;
+      }
+      #hero .img-hero{
+        width: 704px;
+        height: 407px;
+        z-index: 100;
+        position: relative;
+        margin-top: 97px;
+        left: 80px;
       }
       /* /Hero css */
 
@@ -93,7 +155,7 @@
     <!-- Hero -->
     <section id="hero" class="hero">
         <div class="container">
-            <div class="box">
+            <div class="box1">
                 <h1>
                     Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
                 </h1>
@@ -102,9 +164,9 @@
                 </p>
                 <button type="button" class="btn btn-success">Mulai Sewa Mobil</button>
             </div>
-            <div class="box">
+            <div class="box2">
                 <div class="bg-hero"></div>
-                <img src="assets/img/hero.png" alt="logo" class="logo"/>
+                <img src="assets/img/hero.png" alt="hero" class="img-hero"/>
             </div>
         </div>
     </section>
