@@ -1,0 +1,461 @@
+  /* Nav css */
+  #header {
+    background-color: #f1f3ff;
+    position: fixed;
+  }
+  #header .container {
+    padding: 15px 0px;
+  }
+  #header .logo{
+    width: 100px;
+    height: 34px;
+  }
+  #header .nav-link{
+    padding-right: 25px;
+    color: #000;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #header .nav-link:hover{
+      color : #0D28A6;
+      font-weight: 700;
+  }
+  #header .btn{
+    background: #5CB85F;
+    border-color: #5CB85F;
+    width: 81px;
+    height: 36px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* /Nav css */
+
+  /* Hero css */
+  #hero{
+    height: 500px;
+    background-color: #f1f3ff;
+  }
+  #hero .container{
+    display: flex;
+    width: 100%;
+  }
+  #hero .box1{
+    margin-top: 177px;
+    margin-right: 32px;
+  }
+  #hero h1{
+    width: 568px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+  }
+  #hero p{
+    width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #hero .btn{
+    background: #5CB85F;
+    border-color: #5CB85F;
+    width: 145px;
+    height: 36px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #hero .box2{
+    position: relative;
+  }
+  #hero .bg-hero{
+    position: absolute;
+    width: 704px;
+    height: 243px;
+    background: #0D28A6;
+    border-radius: 60px 0px 0px 0px;
+    bottom: 0;
+    z-index: 1;
+    left: 70px;
+  }
+  #hero .img-hero{
+    width: 704px;
+    height: 407px;
+    z-index: 100;
+    position: relative;
+    margin-top: 97px;
+    left: 70px;
+  }
+  /* /Hero css */
+
+  /* section2 css */
+  #section2{
+    height: 550px;
+  }
+  #section2 .container{
+    display: flex;
+  }
+  #section2 .box1{
+    width: 568px;
+    margin-right: 32px;
+    margin-top: 104px;
+    margin-left: 106px;
+  }
+  #section2 .img{
+    width: 459px;
+    height: 428px;
+  }
+  #section2 .box2{
+    margin-top: 140px;
+  }
+  #section2 h1{
+    width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 24px;
+  }
+  #section2 p{
+    width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+  #section2 .item{
+    display: flex;
+    margin-bottom: 6px;
+  }
+  #section2 .boxIcon{
+    margin-right: 16px;
+    background-color: #CFD4ED;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 0px;
+  }
+  #section2 .bi{
+    align-items: center;
+    text-align: center;
+    color: #0D28A6;
+    font-size: 21px;
+  }
+  #section2 .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    vertical-align: 0.125em;
+  }
+  /* /section2 css */
+
+  /* section3 css */
+  #section3{
+    height: 382px;
+  }
+  #section3 .container{
+    padding-top: 122px;
+  }
+  #section3 h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+  #section3 p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #section3 .itemContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #section3 .item{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    position: static;
+    width: 268px;
+    height: 196px;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  #section3 .icon{
+    width: 32px;
+    height: 32px;
+  }
+  #section3 h2{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 16px 0px;
+  }
+  #section3 .pItem{
+    width: 220px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  /* /section3 css */
+
+  /* section4 css */
+  #section4{
+    height: 560px;
+  }
+  #section4 .container-fluid{
+    padding-top: 100px;
+  }
+  #section4 h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+  }
+  #section4 p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  #section4 .owl-prev{
+      background-color: #5CB85F;
+      padding: 50px 50px;
+      border-radius: 5px;
+      font-size: large;
+  }
+  #section4 .btn-group{
+    z-index: 100;
+  }
+  #section4 .item{
+    width: 619px;
+    height: 270px;
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    display: flex;
+  }
+  #section4 .img{
+    width: 80px;
+    height: 80px;
+    margin: 95px 46px;
+  }
+  #section4 .testimoni{
+    margin: 69px 32px 69px 0px;
+  }
+  #section4 .checked{
+    color: #F9CC00;
+  }
+  #section4 .quote{
+    width: 415px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin: 8px 0px;
+  }
+  #section4 .name{
+    width: 415px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin: 8px 0px;
+  }
+  /* /section4 css */
+
+  /* section5 css */
+  #section5{
+    height: 326px;
+  }
+  #section5 .container{
+    height: 326px;
+    margin-top: 50px;
+    background: #0D28A6;
+    border-radius: 13px;
+    text-align: center;
+    padding-top: 64px;
+  }
+  #section5 h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  #section5 p{
+    text-align: center;
+    width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+  #section5 .btn{
+    background: #5CB85F;
+    border-color: #5CB85F;
+    width: 145px;
+    height: 36px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 52px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* /section5 css */
+
+  /* section6 css */
+  #section6{
+    height: 554px;
+  }
+  #section6 .container{
+    display: flex;
+    padding-top: 100px;
+  }
+  #section6 .item{
+    margin-right: 132px;
+  }
+  #section6 h1{
+    width: 368px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+  #section6 p{
+    width: 368px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #section6 .accordion{
+    width: 100%;
+  }
+  #section6 .accordion-item{
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  /* /section6 css */
+
+  /* footer */
+  #footer{
+    height: 324px;
+    justify-content: space-between;
+  }
+  #footer .container{
+    padding-top: 100px;
+    display: flex;
+  }
+  #footer .item{
+    margin-right: 86px;
+  }
+  #footer p{
+    width: 268px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #footer .nav-link{
+    width: 150px;
+    padding-right: 25px;
+    color: #000;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #footer .nav-link:hover{
+      color : #0D28A6;
+  }
+  #footer .img{
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+  }
+  #footer .logo{
+    width: 100px;
+    height: 34px;
+  }
+  /* /footer */
