@@ -263,14 +263,20 @@
     text-align: center;
     color: #000000;
   }
-  #section4 .owl-prev{
-      background-color: #5CB85F;
-      padding: 50px 50px;
-      border-radius: 5px;
-      font-size: large;
+  .bi-chevron-left::before, .bi-chevron-right::before {
+    vertical-align: inherit;
+    padding: 16px;
+    border-radius: 32px;
   }
-  #section4 .btn-group{
-    z-index: 100;
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    border-radius: 32px;
+    border: solid 1px #c4c4c4;
+    margin-right: 24px;
+  }
+  .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover {
+    background-color: #5CB85F;
+    margin-right: 26px;
+    border:none;
   }
   #section4 .item{
     width: 619px;
