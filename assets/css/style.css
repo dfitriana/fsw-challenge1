@@ -265,7 +265,7 @@
   }
   .bi-chevron-left::before, .bi-chevron-right::before {
     vertical-align: inherit;
-    padding: 16px;
+    padding: 8px;
     border-radius: 32px;
   }
   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
