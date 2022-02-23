@@ -422,11 +422,13 @@
       const nextIcon = '<i class="bi bi-chevron-right owlIcon"/>';
 
       $('.owl-carousel').owlCarousel({
-        // stagePadding: 380,
+        center:true,
+        items:2,
         autoplay: true,
         autoplayTimeout: 5000,
+        autoWidth:true,
         loop:true,
-        margin:10,
+        margin:32,
         nav:true,
         navText: [
           prevIcon,
@@ -440,15 +442,17 @@
             },
             // breakpoint from 600 up
             600:{
-                items:1,
-                stagePadding: 100,
-                margin: 5,
+              items:2,
             },
             // breakpoint from 1000 up
             1000:{
-                items:1,
-                stagePadding: 400,
-                margin: 32
+              items: 2,
+            },
+            1200:{
+              items:2,
+            },
+            1400:{
+              items:2,
             }
         }
       })
