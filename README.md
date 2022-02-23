@@ -9,3 +9,5 @@ https://dfitriana.github.io/fsw-challenge1/
 disarankan untuk mennggunakan laptop ketika membukanya dan zoom in browser sebesar 100%
 
 Terima kasih.
+
+

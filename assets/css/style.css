@@ -464,4 +464,7 @@
     width: 100px;
     height: 34px;
   }
+  #footer .sosmedLink{
+    text-decoration: none;
+  }
   /* /footer */
