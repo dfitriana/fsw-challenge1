@@ -53,6 +53,7 @@
   #hero .box1{
     margin-top: 177px;
     margin-right: 32px;
+    width: 50%;
   }
   #hero h1{
     width: 568px;
@@ -90,6 +91,8 @@
   }
   #hero .box2{
     position: relative;
+    width: 50%;
+    right: 0;
   }
   #hero .bg-hero{
     position: absolute;
@@ -99,7 +102,7 @@
     border-radius: 60px 0px 0px 0px;
     bottom: 0;
     z-index: 1;
-    left: 70px;
+    /* left: 70px; */
   }
   #hero .img-hero{
     width: 704px;
@@ -107,7 +110,7 @@
     z-index: 100;
     position: relative;
     margin-top: 97px;
-    left: 70px;
+    /* left: 70px; */
   }
   /* /Hero css */
 
