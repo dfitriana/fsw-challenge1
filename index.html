@@ -37,22 +37,38 @@
     <!-- Navbar -->
     <header id="header" class="fixed-top">
       <div class="container">
-        <nav class="nav-menu d-flex flex-row justify-content-between">
+        <nav class="nav-menu navbar-expand-lg d-flex flex-row justify-content-between">
           <div class="d-flex flex-grow-1">
             <a href="index.html">
                 <img src="assets/img/logo.png" alt="logo" class="logo"
             />
           </div>
-          <div class="navbar-nav d-flex flex-row">
-            <a class="nav-link" href="#section2">Our Services</a>
-            <a class="nav-link" href="#section3">Why Us</a>
-            <a class="nav-link" href="#section4">Testimonial</a>
-            <a class="nav-link" href="#section6">FAQ</a>
-            <button type="button" class="btn btn-success">Register</button>
+          <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+          <div class="navbar-nav d-flex flex-row justify-content-end offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+            <div class="offcanvas-header">
+              <!-- <a href="index.html"> -->
+              <!-- <img src="assets/img/logo.png" alt="logo" class="logo"/> -->
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="bi bi-x"></i>
+              </button>
+            </div>
+            
+            <div class="offcanvas-body">
+              <a class="nav-link" href="#section2">Our Services</a>
+              <a class="nav-link" href="#section3">Why Us</a>
+              <a class="nav-link" href="#section4">Testimonial</a>
+              <a class="nav-link" href="#section6">FAQ</a>
+              <button type="button" class="btn btn-success">Register</button>
+            </div>
+
           </div>
         </nav>
-        <!-- .nav-menu -->
       </div>
+        <!-- .nav-menu -->
     </header>
     <!-- /Navbar -->
 
@@ -184,7 +200,7 @@
           <div class="col-12 m-auto">
             <div class="owl-carousel owl-theme">
 
-              <div class="item mb-4 ">
+              <div class="item mb-4">
                 <img src="assets/img/img_photo1.png" alt="img" class="img"/>
                 <div class="testimoni">
                   <div class="ratingContainer">
@@ -411,6 +427,24 @@
       crossorigin="anonymous">
     </script>
 
+    <!-- offcanvas navbar -->
+    <script>
+      // <!-- $(function () {
+      // 'use strict' -->
+
+      $(document)
+        .on('click', '[data-toggle="offcanvas"]', function(e) {
+          $('.offcanvas-end').toggleClass('open'); // toggle `.open`
+          e.stopPropagation(); // and stop propagation
+        })
+        .on('click', function(e) {
+        if (!$(e.target).closest('nav.fixed-top').is('nav')) {
+          $('.offcanvas-end').removeClass('open'); // remove `.open`
+        }
+      });
+      
+    </script>
+
     <!-- owl carousel min.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
@@ -438,7 +472,7 @@
         responsive:{
             // breakpoint from 0 up
             0:{
-                items:1
+                items:1,
             },
             // breakpoint from 600 up
             600:{
