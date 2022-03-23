@@ -538,7 +538,8 @@
   }
   #hero .box2 {
     width: 100%;
-    left: 4%;
+    left: 3%;
+    margin-right: -1;
   }
   #hero .bg-hero {
     width: 100%;
