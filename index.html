@@ -40,18 +40,21 @@
         <nav class="nav-menu navbar-expand-lg d-flex flex-row justify-content-between">
           <div class="d-flex flex-grow-1">
             <a href="index.html">
-                <img src="assets/img/logo.png" alt="logo" class="logo"
-            />
+                <img src="assets/img/logo.png" alt="logo" class="logo"/>
+            </a>
           </div>
+
           <div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
             <i class="bi bi-list"></i>
           </button>
-        </div>
-          <div class="navbar-nav d-flex flex-row justify-content-end offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+          </div>
+
+          <div class="navbar-nav d-flex justify-content-end offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
             <div class="offcanvas-header">
-              <!-- <a href="index.html"> -->
-              <!-- <img src="assets/img/logo.png" alt="logo" class="logo"/> -->
+              <a href="index.html" class="text">
+              <h2 class="textBrand">BCR</h2>
+              </a>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
                 <i class="bi bi-x"></i>
               </button>
@@ -64,8 +67,8 @@
               <a class="nav-link" href="#section6">FAQ</a>
               <button type="button" class="btn btn-success">Register</button>
             </div>
-
           </div>
+          
         </nav>
       </div>
         <!-- .nav-menu -->
@@ -192,7 +195,7 @@
 
     <!-- section4 -->
     <section id="section4" class="section4">
-      <div class="container-fluid my-5">
+      <div class="container-fluid">
         <h1>Testimonial</h1>
         <p>Berbagai review positif dari para pelanggan kami</p>
 
@@ -432,16 +435,16 @@
       // <!-- $(function () {
       // 'use strict' -->
 
-      $(document)
-        .on('click', '[data-toggle="offcanvas"]', function(e) {
-          $('.offcanvas-end').toggleClass('open'); // toggle `.open`
-          e.stopPropagation(); // and stop propagation
-        })
-        .on('click', function(e) {
-        if (!$(e.target).closest('nav.fixed-top').is('nav')) {
-          $('.offcanvas-end').removeClass('open'); // remove `.open`
-        }
-      });
+      // $(document)
+      //   .on('click', '[data-toggle="offcanvas"]', function(e) {
+      //     $('.offcanvas-end').toggleClass('open'); // toggle `.open`
+      //     e.stopPropagation(); // and stop propagation
+      //   })
+      //   .on('click', function(e) {
+      //   if (!$(e.target).closest('nav.fixed-top').is('nav')) {
+      //     $('.offcanvas-end').removeClass('open'); // remove `.open`
+      //   }
+      // });
       
     </script>
 
