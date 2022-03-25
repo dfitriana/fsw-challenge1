@@ -562,7 +562,7 @@
     margin-top: 180px;
   }
   #section2 {
-    height: 500px;
+    height: auto;
   }
   #section2 .container {
     /* flex-direction: column; */
@@ -629,15 +629,15 @@
     width: 100%;
   }
   #section4 {
-    height: 650px;
+    height: auto;
   }
   #section4 .container-fluid {
-    padding-top: 100px;
+    padding-top: 80px;
     margin-top: 0px;
   }
   #section4 .item {
-    width: 520px;
-    height: 310px;
+    width: 450px;
+    height: 330px;
     flex-direction: column;
     text-align: center;
   }
@@ -678,7 +678,7 @@
   }
 
   #section6 {
-    height: 754px;
+    height: 654px;
   }
   #section6 .container {
     flex-direction: column;
