@@ -521,7 +521,7 @@
     margin-top: 16px;
   } */
   #hero {
-    /* height: 557px; */
+    height: auto;
   }
   #hero .box1 {
     margin-top: 150px;
@@ -567,7 +567,7 @@
   }
   #section2 .img {
     width: 80%;
-    height: 95%;
+    height: auto;
   }
   #section2 .box2 {
     width: 50%;
@@ -604,7 +604,7 @@
     /* flex-wrap: wrap; */
   }
   #section3 .item {
-    width: 100%;
+    width: 50%;
     height: auto;
     margin-right: 15px;
     margin-bottom: 16px;
