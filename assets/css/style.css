@@ -598,10 +598,10 @@
   }
   #section3 {
     height: auto;
-    padding-bottom: 500px;
   }
   #section3 .container {
     padding-top: 90px;
+    padding-bottom: 30px;
   }
   #section3 h1 {
     /* text-align: center; */
@@ -636,8 +636,8 @@
     margin-top: 0px;
   }
   #section4 .item {
-    width: 328px;
-    height: 372px;
+    width: 450px;
+    height: 330px;
     flex-direction: column;
     text-align: center;
   }
