@@ -524,7 +524,7 @@
     height: auto;
   }
   #hero .box1 {
-    margin-top: 150px;
+    margin-top: 120px;
     width: 50%;
     padding-bottom: 68px;
   }
@@ -552,7 +552,7 @@
     margin-top: 180px;
   }
   #section2 {
-    /* height: 830px; */
+    height: 500px;
   }
   #section2 .container {
     /* flex-direction: column; */
@@ -587,7 +587,7 @@
     margin-bottom: 6px;
   }
   #section3 {
-    /* height: 1050px; */
+    height: auto;
   }
   #section3 .container {
     padding-top: 90px;
