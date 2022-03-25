@@ -1,0 +1,5 @@
+Untuk tampilan ketika di jalankan pada smartphone terdapat sedikit perbedaan, namun sudah responsive. Dapat dijalankan pada mode mobile maupun situs dekstop. 
+
+Ingin TAHU Seperti Apa?
+kunjungi saja tautan berikut ini
+https://dfitriana.github.io/fsw-challenge1/
