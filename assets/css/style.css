@@ -81,6 +81,8 @@
 #hero .container {
   display: flex;
   width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #hero .box1 {
   margin-top: 177px;
@@ -155,6 +157,8 @@
 }
 #section2 .container {
   display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #section2 .box1 {
   width: 568px;
@@ -221,6 +225,8 @@
 }
 #section3 .container {
   padding-top: 122px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #section3 h1 {
   font-family: Helvetica;
@@ -423,6 +429,8 @@
 #section6 .container {
   display: flex;
   padding-top: 100px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #section6 .item {
   margin-right: 132px;
@@ -472,6 +480,8 @@
 #footer .container {
   padding-top: 100px;
   display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #footer .item {
   margin-right: 86px;
@@ -740,6 +750,8 @@
   }
   #hero .container {
     flex-direction: column;
+    padding-right: 12px;
+    padding-left: 12px;
   }
   #hero .box2 {
     width: 100%;
@@ -762,6 +774,8 @@
   #section2 .container {
     flex-direction: column;
     padding-top: 50px;
+    padding-right: 12px;
+    padding-left: 12px;
   }
   #section2 .box1 {
     width: 100%;
@@ -793,6 +807,8 @@
   }
   #section3 .container {
     padding-top: 100px;
+    padding-right: 12px;
+    padding-left: 12px;
   }
   #section3 h1 {
     text-align: center;
@@ -871,6 +887,8 @@
   #section6 .container {
     flex-direction: column;
     padding-top: 80px;
+    padding-right: 12px;
+    padding-left: 12px;
   }
   #section6 .item {
     margin-right: 0px;
@@ -894,6 +912,8 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+    padding-right: 12px;
+    padding-left: 12px;
   }
   #footer .item {
     margin-right: 0px;
